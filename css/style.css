@@ -1,0 +1,131 @@
+*
+{
+  margin:0;
+  padding:0;
+}
+
+.navbar
+{
+	padding:19px 0px;
+	background-color: #869cb9!important;
+	border-bottom: none !important;
+}
+
+.navbar ul li a
+{
+	color:white !important;
+	text-transform: uppercase; 
+	font-weight: 600;
+	letter-spacing: 1px; 
+    font-size: 13px;
+    transition: all 0.5s ease-in;
+}
+
+.navbar ul li a:hover 
+{
+	color: deepskyblue !important;
+}
+
+.navbar-toggle
+{
+	border: 1px solid white !important;
+	transition: all 0.5s ease-in; 
+}
+
+.navbar-toggle:hover
+{
+	background-color:  deepskyblue !important;
+}
+
+.navbar-inverse .navbar-collapse
+{
+	border-color: transparent !important;
+}
+
+.location
+{
+	border: 1px solid white;
+	border-radius: 50px;
+}
+
+.slider
+{
+	width: 100%;
+	height: 700px;
+	background-image: url(..//img/bg.png); 
+	background-size:     cover;                     
+    background-position: 0px 5px;
+	color: white;
+	
+}
+.slider-overlay
+{
+	width: 100%;
+	height: 100%;
+	background:rgba(192, 170, 170, 0.1); 
+	position: relative;
+}
+
+.slider-content
+{
+	position: absolute;
+	top: 39%;
+	width: 100%; 
+}
+
+.icons .fa
+{
+	font-size: 30px;
+	margin-right: 7px;
+	margin-top: 50px;
+	
+
+}
+
+.btn1
+{
+	padding: 15px 18px;
+	background-color: transparent;
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 13px;
+	border: 2px solid white;
+	border-top-left-radius: 15px;
+	transition: all 0.5s ease-in;
+}
+
+.btn1:hover
+{
+	text-decoration: none;
+	color: white;
+	background-color: deepskyblue;
+	border-color: deepskyblue;
+}
+
+.btn2
+{
+	padding: 15px 18px;
+	background-color: transparent;
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 13px;
+	border: 2px solid white;
+	border-bottom-right-radius: 15px;
+	transition: all 0.5s ease-in;
+}
+
+.btn2:hover
+{
+	text-decoration: none;
+	color: white;
+	background-color: orangered;
+	border-color: orangered;
+}
+
+.social-networks
+{
+	font-size: 22px;
+	letter-spacing: 5px;
+}
