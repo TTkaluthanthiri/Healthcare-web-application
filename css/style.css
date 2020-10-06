@@ -1,3 +1,6 @@
+
+
+
 *
 {
   margin:0;
@@ -7,8 +10,9 @@
 .navbar
 {
 	padding:19px 0px;
-	background-color: #869cb9!important;
 	border-bottom: none !important;
+	transition: all 0.5s ease-in-out;
+	background-color: #34495e !important;
 }
 
 .navbar ul li a
@@ -17,18 +21,22 @@
 	text-transform: uppercase; 
 	font-weight: 600;
 	letter-spacing: 1px; 
-    font-size: 13px;
-    transition: all 0.5s ease-in;
+    font-size: 14px;
+	transition: all 0.5s ease-in;
+	
+
 }
 
 .navbar ul li a:hover 
 {
 	color: deepskyblue !important;
+	background: none !important; 
 }
 
 .navbar-toggle
 {
 	border: 1px solid white !important;
+
 	transition: all 0.5s ease-in; 
 }
 
@@ -48,6 +56,16 @@
 	border-radius: 50px;
 }
 
+/*.navbar-inverse
+{
+	background-color: transparent !important;
+}*/
+
+.secondary
+{
+    background-color:#34495e;
+}
+
 .slider
 {
 	width: 100%;
@@ -55,14 +73,14 @@
 	background-image: url(..//img/bg.png); 
 	background-size:     cover;                     
     background-position: 0px 5px;
-	color: white;
-	
+	color: white;	
 }
+
 .slider-overlay
 {
 	width: 100%;
 	height: 100%;
-	background:rgba(192, 170, 170, 0.1); 
+	background:rgba(0,0,0,0.10); 
 	position: relative;
 }
 
@@ -77,56 +95,173 @@
 {
 	font-size: 30px;
 	margin-right: 7px;
-	
-	
-
 }
 
-.btn1
+
+
+
+
+
+
+
+.slider .text 
 {
-	padding: 15px 18px;
-	background-color: transparent;
-	color: white;
-	text-transform: uppercase;
-	letter-spacing: 1px;
-	font-size: 13px;
-	border: 2px solid white;
-	border-top-left-radius: 15px;
-	transition: all 0.5s ease-in;
+	display: inline-block;
+	font-size: 50px;
 }
 
-.btn1:hover
+/*--------Servise styles------*/
+.service-area
+{
+    margin-top: 30px;
+}
+
+.service-area p
+{
+   margin-bottom: -5px;
+}
+
+
+
+
+.service-wrap {
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    overflow: hidden;
+    padding: 25px 35px;
+    position: relative;
+    transition: all 0.5s ease 0s;
+    z-index: 9;
+    margin-top: 20px;
+    
+}
+
+.service-wrap::before, .service-wrap::after {
+    content: "";
+    height: 300%;
+    position: absolute;
+    transform: rotate(45deg);
+    width: 120%;
+    z-index: -9;
+    transition: all 0.5s;
+    opacity: 0;
+    background: #34495e;    
+    
+}
+
+.service-wrap::before{
+    top: -37px;
+    left: 100%;  
+    
+}
+
+.service-wrap:hover:before{    
+    left: -27px;
+    opacity: 1;
+    
+}
+
+
+.service-wrap::after{
+     right: 100%;
+     bottom: -37px;
+    
+}
+
+.service-wrap:hover:after{
+     right: -27px;
+     opacity: 1;
+    
+}
+
+.service-wrap:hover{
+     color: white;    
+}
+
+.service-wrap:h3{
+     color: white;    
+}
+
+
+.service-wrap:hover h3{
+     color: white;    
+}
+
+
+.service-wrap:hover h3:after{
+     background-color: white;    
+}
+
+.service-icon i{
+    font-size: 80px;
+    margin-bottom: 20px;
+    transition: all 0.5s;
+    
+}
+
+
+.service-wrap:hover .service-icon i{
+    
+    transform:rotate(360deg);
+}
+
+.service-wrap h3
+{
+    font-size: 25px;
+    font-weight: 700;
+    padding-bottom: 15px;
+    position: relative;
+    
+}
+
+.service-wrap p
+{
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+
+
+.service-wrap a:hover 
 {
 	text-decoration: none;
-	color: white;
-	background-color: deepskyblue;
-	border-color: deepskyblue;
 }
 
-.btn2
+.page-footer
 {
-	padding: 15px 18px;
-	background-color: transparent;
-	color: white;
-	text-transform: uppercase;
-	letter-spacing: 1px;
-	font-size: 13px;
-	border: 2px solid white;
-	border-bottom-right-radius: 15px;
-	transition: all 0.5s ease-in;
+	background-color: #7283a7;
+		
+}
+.page-footer p
+{
+	color:white;
 }
 
-.btn2:hover
+.page-footer a
+{
+	color: white;
+}
+
+.page-footer a:hover
 {
 	text-decoration: none;
-	color: white;
-	background-color: orangered;
-	border-color: orangered;
+	cursor:pointer; 
+	color:#00A0C6;
+	
 }
 
-.social-networks
+.page-footer navbar-brand
 {
-	font-size: 22px;
-	letter-spacing: 5px;
-	margin-top: 280px;
+	padding-top: 20px;
+}
+
+.page-footer ul li
+{
+	 border: 1px solid  white;
+    padding: 0px;
+    color: white;
+    width: 30px;
+    height: 30px;
+	border-radius: 15px;
+	margin-right: 10px;
+	transition: all 0.5s ease-in;   
 }
