@@ -127,7 +127,7 @@
 .service-wrap {
     box-shadow: 0 0 10px rgba(0,0,0,0.2);
     overflow: hidden;
-    padding: 25px 25px;
+    padding: 25px 35px;
     position: relative;
     transition: all 0.5s ease 0s;
     z-index: 9;
@@ -192,7 +192,7 @@
 }
 
 .service-icon i{
-    font-size: 30px;
+    font-size: 80px;
     margin-bottom: 20px;
     transition: all 0.5s;
     
@@ -221,3 +221,47 @@
 
 
 
+.service-wrap a:hover 
+{
+	text-decoration: none;
+}
+
+.page-footer
+{
+	background-color: #7283a7;
+		
+}
+.page-footer p
+{
+	color:white;
+}
+
+.page-footer a
+{
+	color: white;
+}
+
+.page-footer a:hover
+{
+	text-decoration: none;
+	cursor:pointer; 
+	color:#00A0C6;
+	
+}
+
+.page-footer navbar-brand
+{
+	padding-top: 20px;
+}
+
+.page-footer ul li
+{
+	 border: 1px solid  white;
+    padding: 0px;
+    color: white;
+    width: 30px;
+    height: 30px;
+	border-radius: 15px;
+	margin-right: 10px;
+	transition: all 0.5s ease-in;   
+}
