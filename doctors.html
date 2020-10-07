@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Newlife Hospital</title>
+    
+	<link rel="icon" href="img/heart.png">
+	<link rel="shortcut icon " type="text/css" href="">
+
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+	
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    
+    <style>
+ 
+.navbar
+{
+	padding:19px 0px;
+	border-bottom: none !important;
+	transition: all 0.5s ease-in-out;
+	background-color: #34495e !important;
+}
+
+.navbar ul li a
+{
+	color:white !important;
+	text-transform: uppercase; 
+	font-weight: 600;
+	letter-spacing: 1px; 
+    font-size: 14px;
+	transition: all 0.5s ease-in;
+	
+
+}
+
+.navbar ul li a:hover 
+{
+	color: deepskyblue !important;
+	background: none !important; 
+}
+
+.navbar-toggle
+{
+	border: 1px solid white !important;
+
+	transition: all 0.5s ease-in; 
+}
+
+.navbar-toggle:hover
+{
+	background-color:  deepskyblue !important;
+}
+
+.navbar-inverse .navbar-collapse
+{
+	border-color: transparent !important;
+}
+
+.location
+{
+	border: 1px solid white;
+	border-radius: 50px;
+}
+/*-----------footer---------------*/
+
+.page-footer
+{
+	background-color: #7283a7;
+		
+}
+.page-footer p
+{
+	color:white;
+}
+
+.page-footer a
+{
+	color: white;
+}
+
+.page-footer a:hover
+{
+	text-decoration: none;
+	cursor:pointer; 
+	color:#00A0C6;
+	
+}
+
+.page-footer navbar-brand
+{
+	padding-top: 20px;
+}
+
+.page-footer ul li
+{
+	 border: 1px solid  white;
+    padding: 0px;
+    color: white;
+    width: 30px;
+    height: 30px;
+	border-radius: 15px;
+	margin-right: 10px;
+	transition: all 0.5s ease-in;   
+}
+
+.doctors
+{
+    margin-top: 120px;
+   text-align: left;
+   padding-left: 120px;
+}
+
+.doc-member
+{
+    margin: 0 25px;
+}
+
+.doc-member-info
+{
+    padding: 10px 0 30px 0;
+}
+
+
+    </style>
+
+</head>
+<body>
+	
+	
+
+
+<script src="js/jquery.ripples-min.js" type="text/javascript"></script>	
+<script src="js/main.js" type="text/javascript"></script>
+<script src="js/typed.min.js" type="text/javascript"></script>
+
+
+
+<!-----------navigation starts------->
+<nav class="navbar navbar-inverse navbar-fixed-top">
+	<div class="container">
+		<div class="navbar-header">
+			<!-------responsive button---->
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navi">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a href="" class="navbar-brand"><img src="img/logo2.png"></a>
+		</div>
+		<div class="collapse navbar-collapse" id="navi">
+			<!-------navigation menus---->
+		<ul class="nav navbar-nav navbar-right">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="">Our Services</a></li>
+			
+			<li><a href="">Doctors</a></li>
+			<li><a href="">About Us</a></li>
+			<li><a href="">Carrier</a></li>
+			<li><a href="ourlocation.html" class="location">Our Location</a></li>
+		</ul>
+		<!-------navigation menu end---->
+		</div>
+	</div>
+</nav>
+<!-----------navigation end------->
+
+<!-----------slider section start------->
+<section class="doctors">
+	<div class="container">
+        <h1>DOCTORS</h1>
+        <div class="container">
+        <div class="row">
+            <dic class="col-md-12">
+                 <div id="doc-members">
+                     <div class="doc-member">
+                        <img src="img/team-1.jpg" class="img-responsive">
+                         <div class="doc-member-info text-center">
+                             <h4 class="doc-member-name">Dr Harmoine</h4>
+                             <h4 class="doc-member-des">Cardiologists</h4>
+                               <ul class="social list">
+                                    <li><a href="" class="social-icon icon-gray"><i class="fa fa-facebook"></i> </a> </li>
+                                    <li><a href="" class="social-icon icon-gray"><i class="fa fa-twitter"></i> </a> </li>
+                                    <li><a href="" class="social-icon icon-gray"><i class="fa fa-google-plus"></i> </a> </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="doc-member">
+                            <img src="img/team-2.jpg" class="img-responsive">
+                             <div class="doc-member-info text-center">
+                                 <h4 class="doc-member-name">Dr Bonebrake</h4>
+                                 <h4 class="doc-member-des">Surgeon</h4>
+                                   <ul class="social list">
+                                        <li><a href="" class="social-icon icon-gray"><i class="fa fa-facebook"></i> </a> </li>
+                                        <li><a href="" class="social-icon icon-gray"><i class="fa fa-twitter"></i> </a> </li>
+                                        <li><a href="" class="social-icon icon-gray"><i class="fa fa-google-plus"></i> </a> </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="doc-member">
+                                <img src="img/team-3.jpg" class="img-responsive">
+                                 <div class="doc-member-info text-center">
+                                     <h4 class="doc-member-name">Dr Jhone Cater</h4>
+                                     <h4 class="doc-member-des">Radiologist</h4>
+                                       <ul class="social list">
+                                            <li><a href="" class="social-icon icon-gray"><i class="fa fa-facebook"></i> </a> </li>
+                                            <li><a href="" class="social-icon icon-gray"><i class="fa fa-twitter"></i> </a> </li>
+                                            <li><a href="" class="social-icon icon-gray"><i class="fa fa-google-plus"></i> </a> </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="doc-member">
+                                    <img src="img/team-4.jpg" class="img-responsive">
+                                     <div class="doc-member-info text-center">
+                                         <h4 class="doc-member-name">Dr Uhana Ruth</h4>
+                                         <h4 class="doc-member-des">Cardiologists</h4>
+                                           <ul class="social list">
+                                                <li><a href="" class="social-icon icon-gray"><i class="fa fa-facebook"></i> </a> </li>
+                                                <li><a href="" class="social-icon icon-gray"><i class="fa fa-twitter"></i> </a> </li>
+                                                <li><a href="" class="social-icon icon-gray"><i class="fa fa-google-plus"></i> </a> </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="doc-member">
+                                        <img src="img/team-5.jpg" class="img-responsive">
+                                         <div class="doc-member-info text-center">
+                                             <h4 class="doc-member-name">Dr Nera seth</h4>
+                                             <h4 class="doc-member-des">Gastrologist</h4>
+                                               <ul class="social list">
+                                                    <li><a href="" class="social-icon icon-gray"><i class="fa fa-facebook"></i> </a> </li>
+                                                    <li><a href="" class="social-icon icon-gray"><i class="fa fa-twitter"></i> </a> </li>
+                                                    <li><a href="" class="social-icon icon-gray"><i class="fa fa-google-plus"></i> </a> </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+
+
+                    </div>
+                </dic>
+            </div>
+        </div>		
+	</div>
+</section>
+
+<section class="service-area" id="services">
+	
+				
+</section>
+
+<!-- Footer -->
+<footer class="page-footer font-small mdb-color pt-4">
+
+	<!-- Footer Links -->
+	<div class="container  ">
+  
+	  <!-- Footer links -->
+	  <div class="row-footer text-center  ">
+  
+		<!-- Grid column -->
+		<div class="col-md-3 col-lg-3 col-xl-3 mt-10">
+			<a href="" class="navbar-brand"><img src="img/logo2.png"></a>
+		</div>
+  
+		<!-- Grid column -->
+		<div class="col-md-2">
+		  <h6 class="text-uppercase  font-weight-bold">Products</h6>
+		  <p>
+			<a href="#!">Medical Packages</a>
+		  </p>
+		  <p>
+			<a href="#!">Medical Services</a>
+		  </p>
+		  <p>
+			<a href="#!">International Patients</a>
+		  </p>
+		  <p>
+			<a href="#!">CSR Projects</a>
+		  </p>
+		</div>
+	
+  
+		<!-- Grid column -->
+		<div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+		  <h6 class="text-uppercase mb-4 font-weight-bold">Useful links</h6>
+		  <p>
+			<a href="#!">Home</a>
+		  </p>
+		  <p>
+			<a href="#!">Our Centres</a>
+		  </p>
+		  <p>
+			<a href="#!">News</a>
+		  </p>
+		  <p>
+			<a href="#!">Contact Us</a>
+		  </p>
+		</div>
+  
+		
+  
+		<!-- Grid column -->
+		<div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3 ">
+		  <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
+		  <p>
+			<i class="fas fa-home mr-3"></i> colombo 02, sri lanka.</p>
+		  <p>
+			<i class="fas fa-envelope mr-3"></i> Newlife@gmail.com</p>
+		  <p>
+			<i class="fas fa-phone mr-3"></i> + 01 134 567 88</p>
+		  <p>
+			<i class="fas fa-print mr-3"></i> + 01 134 567 89</p>
+		</div>
+		<!-- Grid column -->
+  
+	  </div>
+	  <!-- Footer links -->
+  
+	  <hr>
+  
+	  <!-- Grid row -->
+	  <div class="row d-flex align-items-center">
+  
+		
+  
+		
+  
+		  <!-- Social buttons -->
+		  <div class="text-center text-md-right">
+			<ul class="list-unstyled list-inline">
+			  <li class="list-inline-item">
+				<a class="btn-floating btn-sm rgba-white-slight mx-1">
+				  <i class="fab fa-facebook-f"></i>
+				</a>
+			  </li>
+			  <li class="list-inline-item">
+				<a class="btn-floating btn-sm rgba-white-slight mx-1">
+				  <i class="fab fa-twitter"></i>
+				</a>
+			  </li>
+			  <li class="list-inline-item">
+				<a class="btn-floating btn-sm rgba-white-slight mx-1">
+				  <i class="fab fa-google-plus-g"></i>
+				</a>
+			  </li>
+			  <li class="list-inline-item">
+				<a class="btn-floating btn-sm rgba-white-slight mx-1">
+				  <i class="fab fa-linkedin-in"></i>
+				</a>
+			  </li>
+			</ul>
+			<p class="text-md-left">© 2020 Copyright:
+				SPM Group
+			  </p>
+		  </div>
+  
+		</div>
+		<!-- Grid column -->
+  
+	  </div>
+	  <!-- Grid row -->
+  
+	</div>
+	<!-- Footer Links -->
+  
+  </footer>
+  <!-- Footer -->
+
+</body>
+
+
+
+
+
+</html>
