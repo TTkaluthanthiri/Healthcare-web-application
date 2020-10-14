@@ -261,7 +261,9 @@
     color: white;
     width: 30px;
     height: 30px;
-	border-radius: 15px;
-	margin-right: 10px;
+	border-radius: 30px;
+    margin-right: 10px;
+    line-height: 30px;
 	transition: all 0.5s ease-in;   
 }
+

@@ -21,4 +21,9 @@ jQuery(document).ready(function(){
                  $("nav").removeClass('secondary'); 
              }
      });
+
+     $("#doc-members").owlCarousel({
+       
+            
+     });
 });

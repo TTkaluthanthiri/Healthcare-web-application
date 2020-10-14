@@ -6,6 +6,9 @@
 	<link rel="icon" href="img/heart.png">
 	<link rel="shortcut icon " type="text/css" href="">
 
+	<link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css" type="text/css"> 
+
 	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
 	
@@ -20,7 +23,9 @@
 
 	<!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    
+	
+    <script src="js/owl.carousel.min.js" type="text/javascript"></script>
+
     <style>
  
 .navbar
@@ -103,32 +108,77 @@
 
 .page-footer ul li
 {
-	 border: 1px solid  white;
+	border: 1px solid  white;
     padding: 0px;
     color: white;
     width: 30px;
     height: 30px;
-	border-radius: 15px;
-	margin-right: 10px;
+	border-radius: 30px;
+    margin-right: 10px;
+    line-height: 30px;
 	transition: all 0.5s ease-in;   
-}
+} 
+
 
 .doctors
 {
-    margin-top: 120px;
+    margin-top: 110px;
    text-align: left;
-   padding-left: 120px;
+   padding-left: 10px;
+  
+}
+
+.doc-member img
+{
+	height: 350px;
+	
 }
 
 .doc-member
 {
-    margin: 0 25px;
+	margin: 0 15px;
+	
 }
 
 .doc-member-info
 {
     padding: 10px 0 30px 0;
 }
+
+h4.doc-member-name
+{
+	font-size: 19px;
+	font-weight: 700;
+	letter-spacing: 1px;
+	padding-top: 1px;
+}
+
+h4.doc-member-des
+{
+	color: #96aaac;
+	font-size: 15px;
+	font-weight: 700;
+	letter-spacing: 1px;
+	margin-top: 5px;
+	text-transform: capitalize;
+}
+
+.social-list
+{
+	padding-left: 0;
+}
+
+.social-list li
+{
+	list-style: none;
+	display: inline-block;
+	width: 32px;
+	height: 32px;
+	margin-right: 6px;
+	margin-top: 5px;
+	
+}
+
 
 
     </style>
@@ -181,13 +231,13 @@
         <div class="container">
         <div class="row">
             <dic class="col-md-12">
-                 <div id="doc-members">
+                 <div id="doc-members"  class="owl-carousel owl-theme">
                      <div class="doc-member">
                         <img src="img/team-1.jpg" class="img-responsive">
                          <div class="doc-member-info text-center">
                              <h4 class="doc-member-name">Dr Harmoine</h4>
                              <h4 class="doc-member-des">Cardiologists</h4>
-                               <ul class="social list">
+                               <ul class="social-list">
                                     <li><a href="" class="social-icon icon-gray"><i class="fa fa-facebook"></i> </a> </li>
                                     <li><a href="" class="social-icon icon-gray"><i class="fa fa-twitter"></i> </a> </li>
                                     <li><a href="" class="social-icon icon-gray"><i class="fa fa-google-plus"></i> </a> </li>
@@ -199,7 +249,7 @@
                              <div class="doc-member-info text-center">
                                  <h4 class="doc-member-name">Dr Bonebrake</h4>
                                  <h4 class="doc-member-des">Surgeon</h4>
-                                   <ul class="social list">
+                                   <ul class="social-list">
                                         <li><a href="" class="social-icon icon-gray"><i class="fa fa-facebook"></i> </a> </li>
                                         <li><a href="" class="social-icon icon-gray"><i class="fa fa-twitter"></i> </a> </li>
                                         <li><a href="" class="social-icon icon-gray"><i class="fa fa-google-plus"></i> </a> </li>
@@ -211,7 +261,7 @@
                                  <div class="doc-member-info text-center">
                                      <h4 class="doc-member-name">Dr Jhone Cater</h4>
                                      <h4 class="doc-member-des">Radiologist</h4>
-                                       <ul class="social list">
+                                       <ul class="social-list">
                                             <li><a href="" class="social-icon icon-gray"><i class="fa fa-facebook"></i> </a> </li>
                                             <li><a href="" class="social-icon icon-gray"><i class="fa fa-twitter"></i> </a> </li>
                                             <li><a href="" class="social-icon icon-gray"><i class="fa fa-google-plus"></i> </a> </li>
@@ -223,7 +273,7 @@
                                      <div class="doc-member-info text-center">
                                          <h4 class="doc-member-name">Dr Uhana Ruth</h4>
                                          <h4 class="doc-member-des">Cardiologists</h4>
-                                           <ul class="social list">
+                                           <ul class="social-list">
                                                 <li><a href="" class="social-icon icon-gray"><i class="fa fa-facebook"></i> </a> </li>
                                                 <li><a href="" class="social-icon icon-gray"><i class="fa fa-twitter"></i> </a> </li>
                                                 <li><a href="" class="social-icon icon-gray"><i class="fa fa-google-plus"></i> </a> </li>
@@ -235,7 +285,7 @@
                                          <div class="doc-member-info text-center">
                                              <h4 class="doc-member-name">Dr Nera seth</h4>
                                              <h4 class="doc-member-des">Gastrologist</h4>
-                                               <ul class="social list">
+                                               <ul class="social-list">
                                                     <li><a href="" class="social-icon icon-gray"><i class="fa fa-facebook"></i> </a> </li>
                                                     <li><a href="" class="social-icon icon-gray"><i class="fa fa-twitter"></i> </a> </li>
                                                     <li><a href="" class="social-icon icon-gray"><i class="fa fa-google-plus"></i> </a> </li>
@@ -311,13 +361,13 @@
 		<div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3 ">
 		  <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
 		  <p>
-			<i class="fas fa-home mr-3"></i> colombo 02, sri lanka.</p>
+			<i class="fa fa-home mr-3"></i> colombo 02, sri lanka.</p>
 		  <p>
-			<i class="fas fa-envelope mr-3"></i> Newlife@gmail.com</p>
+			<i class="fa fa-envelope mr-3"></i> Newlife@gmail.com</p>
 		  <p>
-			<i class="fas fa-phone mr-3"></i> + 01 134 567 88</p>
+			<i class="fa fa-phone mr-3"></i> + 01 134 567 88</p>
 		  <p>
-			<i class="fas fa-print mr-3"></i> + 01 134 567 89</p>
+			<i class="fa fa-print mr-3"></i> + 01 134 567 89</p>
 		</div>
 		<!-- Grid column -->
   
@@ -338,22 +388,22 @@
 			<ul class="list-unstyled list-inline">
 			  <li class="list-inline-item">
 				<a class="btn-floating btn-sm rgba-white-slight mx-1">
-				  <i class="fab fa-facebook-f"></i>
+				  <i class="fa fa-facebook-f"></i>
 				</a>
 			  </li>
 			  <li class="list-inline-item">
 				<a class="btn-floating btn-sm rgba-white-slight mx-1">
-				  <i class="fab fa-twitter"></i>
+				  <i class="fa fa-twitter"></i>
 				</a>
 			  </li>
 			  <li class="list-inline-item">
 				<a class="btn-floating btn-sm rgba-white-slight mx-1">
-				  <i class="fab fa-google-plus-g"></i>
+				  <i class="fa fa-google-plus"></i>
 				</a>
 			  </li>
 			  <li class="list-inline-item">
 				<a class="btn-floating btn-sm rgba-white-slight mx-1">
-				  <i class="fab fa-linkedin-in"></i>
+				  <i class="fa fa-linkedin"></i>
 				</a>
 			  </li>
 			</ul>
